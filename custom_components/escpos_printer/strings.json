@@ -44,6 +44,7 @@
       "fields": {
         "text": {"name": "Text", "description": "Text content to print."},
         "align": {"name": "Alignment", "description": "Horizontal alignment for the text."},
+        "custom_size": {"name": "Custom size", "description": "Use custom sizes when specified."},
         "bold": {"name": "Bold", "description": "Render text in bold font."},
         "underline": {"name": "Underline", "description": "Underline mode for text."},
         "width": {"name": "Width multiplier", "description": "Text width multiplier (1–3)."},

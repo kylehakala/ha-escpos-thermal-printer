@@ -273,6 +273,7 @@ class EscposPrinterAdapter:
         underline: Optional[str] = None,
         width: Optional[str] = None,
         height: Optional[str] = None,
+        custom_size: Optional[bool] = None,
         encoding: Optional[str] = None,
         cut: Optional[str] = DEFAULT_CUT,
         feed: Optional[int] = 0,
@@ -297,7 +298,7 @@ class EscposPrinterAdapter:
 
                 # Set style
                 if hasattr(printer, "set"):
-                    printer.set(align=align_m, bold=bool(bold), underline=ul, width=wmult, height=hmult)
+                    printer.set(align=align_m, custom_size=bool(custom_size), bold=bool(bold), underline=ul, width=wmult, height=hmult)
 
                 # Encoding is best-effort; python-escpos handles str internally.
                 if encoding:

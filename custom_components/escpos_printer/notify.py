@@ -65,6 +65,7 @@ class EscposNotifyEntity(NotifyEntity):
                 text=text,
                 align=defaults.get("align"),
                 bold=False,
+                custom_size=False,
                 underline="none",
                 width="normal",
                 height="normal",

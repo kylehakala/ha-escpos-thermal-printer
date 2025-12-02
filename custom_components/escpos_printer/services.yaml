@@ -19,6 +19,9 @@ print_text:
     bold:
       selector:
         boolean: {}
+    custom_size:
+      selector:
+        boolean: {}
     underline:
       selector:
         select:
