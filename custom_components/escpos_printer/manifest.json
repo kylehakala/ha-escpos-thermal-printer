@@ -2,7 +2,7 @@
   "domain": "escpos_printer",
   "name": "ESC/POS Thermal Printer",
   "codeowners": [
-    "@cognitivegears"
+    "@kylehakala"
   ],
   "config_flow": true,
   "documentation": "https://github.com/cognitivegears/ha-escpos-thermal-printer#readme",
